@@ -1,0 +1,66 @@
+body{
+	background-color: #222;
+	color: #fff;
+}
+h1{
+	color: hotpink;
+}
+.topnav{
+	background-color: #222;
+}
+.topnav a{
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #ff0072;
+  color: white;
+}
+
+p{
+	color: #ff0072;
+}
+#specialParagraph{
+	color: hotpink;
+
+}
+
+}
+.contentParent{
+	width: 500px;
+	height: 500px;
+	background-color: #ff0072;
+}
+.contentChild{
+	width: 250px;
+	background-color: #dd0072;
+	padding: 40px;
+	border: 10px solid darkslategrey;
+}
+.slogan{
+	font-size: 20px;
+}
+.slogan2{
+	font-size: 25px;
+}
+.web{
+	border: 1px black;
+	background-color: lightpink;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	font-size: 30px;
+}
