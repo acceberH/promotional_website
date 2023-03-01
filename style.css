@@ -1,8 +1,8 @@
-body{
+body > p {
 	background-color: #222;
 	color: #fff;
 }
-h1{
+h1, p{
 	color: hotpink;
 }
 .topnav{
@@ -29,21 +29,19 @@ h1{
   color: white;
 }
 
-p{
-	color: #ff0072;
-}
+
 #specialParagraph{
 	color: hotpink;
 
 }
 
 }
-.contentParent{
+.wrapper{
 	width: 500px;
 	height: 500px;
 	background-color: #ff0072;
 }
-.contentChild{
+.px{
 	width: 250px;
 	background-color: #dd0072;
 	padding: 40px;
